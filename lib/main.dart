@@ -9,10 +9,18 @@ void main() {
   runApp(
     //MaterialApp is a pre-created format by Google
     MaterialApp(
-      //Centers all widgets below
-      home: Center(
-        //Just says "Hello World"
-        child: Text('Hello World'),
+      home: Scaffold(
+        backgroundColor: Colors.yellow[50],
+        appBar: AppBar(
+          backgroundColor: Colors.lightGreen[800],
+          title: Text('\$\$\$ I Am Rich \$\$\$'),
+        ),
+        body: Center(
+          child: Image(
+            image: NetworkImage(
+                'http://icons.iconarchive.com/icons/google/noto-emoji-objects/512/62886-heavy-dollar-sign-icon.png'),
+          ),
+        ),
       ),
     ),
   );
