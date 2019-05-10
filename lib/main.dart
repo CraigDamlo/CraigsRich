@@ -17,8 +17,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'http://icons.iconarchive.com/icons/google/noto-emoji-objects/512/62886-heavy-dollar-sign-icon.png'),
+            image: AssetImage('images/dollarsign.png'),
           ),
         ),
       ),
