@@ -13,11 +13,11 @@ void main() {
         backgroundColor: Colors.yellow[50],
         appBar: AppBar(
           backgroundColor: Colors.lightGreen[800],
-          title: Text('\$\$\$ I Am Rich \$\$\$'),
+          title: Text('Craig Has Lots of Money!'),
         ),
         body: Center(
           child: Image(
-            image: AssetImage('images/dollarsign.png'),K
+            image: AssetImage('images/richcraig.png'),
           ),
         ),
       ),
