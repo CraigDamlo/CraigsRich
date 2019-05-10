@@ -17,7 +17,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: AssetImage('images/dollarsign.png'), //Local image File
+            image: AssetImage('images/dollarsign.png'),
           ),
         ),
       ),
